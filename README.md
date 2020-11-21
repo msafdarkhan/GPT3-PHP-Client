@@ -30,7 +30,7 @@ With same text and
 
 Predicted Text By GPT3: **I have been working in a software industry for**
 
-![GPT3 output2](https://github.com/msafdarkhan/GPT3-PHP-Client/raw/main/Screenshots/Max%20Token%2010%20Output%202.pn "GPT3 output2")
+![GPT3 output2](https://github.com/msafdarkhan/GPT3-PHP-Client/raw/main/Screenshots/Max%20Token%2010%20Output%202.png "GPT3 output2")
 
 GPT3 Tokens Utilization 
 ![Token Used 2](https://github.com/msafdarkhan/GPT3-PHP-Client/raw/main/Screenshots/How%20Many%20Tokens%20Utilized%202.png "Tokens Used By This Prediction")
