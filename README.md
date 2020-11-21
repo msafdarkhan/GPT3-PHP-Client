@@ -4,16 +4,16 @@ Future Works
 This API in future will help to intract with Wordpress, Drupal,Laravel, Prestashops and all other PHP based CMS and Framworks to make Deep web Interfaces, Tools, Plugins and much more to chnage the web face of PHP even development of complete PHP based website through or Making of PHP based webforms through GPT3 by single line of descriptive sentence. [GPT3](https://twitter.com/theSafdarKhan) [#Here is The Future](https://twitter.com/theSafdarKhan)
 
 Through this API I entered text for prediction **"i am Safdar Khan a Software Engineer"** and Use
-       - "max_tokens": **5**,
-       - "temperature": **0.25**,
-       - "top_p": 1,
-       - "n": 1,
-       - "stream": false,
-       - "logprobs": null,
-       - "stop": "\n",
-       - "presence_penalty": 0,
-       - "frequency_penalty": 0,
-       - "best_of": 1
+  - "max_tokens": **5**,
+  - "temperature": **0.25**,
+  - "top_p": 1,
+  - "n": 1,
+  - "stream": false,
+  - "logprobs": null,
+  - "stop": "\n",
+  - "presence_penalty": 0,
+  - "frequency_penalty": 0,
+  - "best_of": 1
 
 ![API Backend](https://github.com/msafdarkhan/GPT3-PHP-Client/raw/main/Screenshots/Code.png "My Input Code to this API")
 
