@@ -32,8 +32,8 @@ curl_setopt_array($curl, [
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "POST",
     CURLOPT_POSTFIELDS => '{
-        "prompt": "This is a test",
-        "max_tokens": 5,
+        "prompt": "i am Safdar Khan a Software Engineer",
+        "max_tokens": 10,
         "temperature": 0.25,
         "top_p": 1,
         "n": 1,
@@ -42,15 +42,28 @@ curl_setopt_array($curl, [
         "stop": "\n",
         "presence_penalty": 0,
         "frequency_penalty": 0,
-        "best_of": 1,
-        "logit_bias": null,
+        "best_of": 1
     }',
 	CURLOPT_HTTPHEADER => [
         'Content-Type: application/json',
-        'Authorization:' . $secret_key
-        //{for Orgnization} 'OpenAI-Organization': $secret_key
+        'Authorization: Bearer ' . $secret_key
     ],
 ]);
+
+//{for Orgnization} insted of Authorization: use 'OpenAI-Organization': $secret_key
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+	echo "CURL Error #:" . $err;
+} else {
+	echo $response;
+}
+
+?>
 
 $response = curl_exec($curl);
 $err = curl_error($curl);
